@@ -1,7 +1,5 @@
 # 🚀 Nginx for Android  
 > 轻量级、一键启动的 Nginx 服务器，专为 Android 打造。
-
-<<<<<<< HEAD
 如何使用？
 克隆就是了
 记得+x
@@ -16,6 +14,5 @@ nginx-android/ ├── conf/ # 配置文件 ├── html/ # 默认网页 ├
   ```bash
  export LD_LIBRARY_PATH=nginx/libs:$LD_LIBRARY_PATH
 ## 启动 Nginx
-  ```bash
  ./sbin/nginx
 ## 完
