@@ -15,4 +15,6 @@ nginx-android/ ├── conf/ # 配置文件 ├── html/ # 默认网页 ├
  export LD_LIBRARY_PATH=nginx/libs:$LD_LIBRARY_PATH
 ## 启动 Nginx
  ./sbin/nginx
-## 完
+
+## 需放置/data/local/tmp/nginx/
+## 可以root/noroot使用
